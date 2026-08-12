@@ -1,2 +1,2 @@
 FROM alpine:latest
-CMD ["sh", "-c", "echo 'Hello, captain!'"]
+CMD ["sh", "-c", "echo 'Hello, ${USER}!'"]
